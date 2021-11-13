@@ -2,14 +2,13 @@
 
 * { box-sizing: border-box; } 
 
-/*
 body {
-  font-family: font-family: 'Nunito', sans-serif; 
+  font-family: 'Nunito', sans-serif; 
   font-size: 16pt;
   margin: 0 auto;
   color: #191645;
   font-weight: bolder;
-}*/
+}
 
 header { 
   font-family: 'Nunito', sans-serif;
@@ -19,7 +18,7 @@ header {
   width: 800px;
   margin: 0 auto;
   color: #000000;
-  align-content: flex-end;
+  align-content: left;
 
 } /* partial span in grid of viewport with line 1 to 5 for Full span. Kept consistent across all pages*/
 
@@ -64,8 +63,8 @@ nav {
   }
   
   nav li a:hover { 
-	background-color: #43C6Ac;
-	color: white;
+	background-color: #1c6494dc;
+	color: #00060a;
   }
   /* end navigation */
 
