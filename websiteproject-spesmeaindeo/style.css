@@ -1,6 +1,14 @@
-/*Assignment 6 CSS Styling*/
-
 * { box-sizing: border-box; } 
+
+index {
+    background-image: url(\images\electricbythesea.jpg); /*image from unsplash*/
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    border-color:  rgb(59, 195, 230);
+    border-width: 1px;
+    }
 /*
 body {
   font-family: Arial, Helvetica, sans-serif; 
@@ -8,7 +16,7 @@ body {
   margin: 0 auto;
   color: #191645;
   font-weight: bolder;
-}
+}*/
 
 header { 
   font-family: Arial, Helvetica, sans-serif;
@@ -17,18 +25,18 @@ header {
   text-decoration: none;
   width: 800px;
   margin: 0 auto;
-  color: #191645;
+  color: #000000;
   align-content: flex-end;
 
 } /* partial span in grid of viewport with line 1 to 5 for Full span.*/
-/*
+
 .logo {
 	display: flex;
   }
   
 img {
 	margin: 10px;
-  }*/
+  }
 
 /* start navigation */
 
@@ -36,8 +44,8 @@ img {
 nav {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 16pt;
-	background-color: #f3f3f4;
-	color: #191645;
+	background-color: #1f72aaa1;
+	color: #00060a;
   }
 
   nav .wrapper {
