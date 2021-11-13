@@ -18,7 +18,7 @@ header {
   width: 800px;
   margin: 0 auto;
   color: #000000;
-  align-content: left;
+  align-content: flex-end;
 
 } /* partial span in grid of viewport with line 1 to 5 for Full span. Kept consistent across all pages*/
 
@@ -27,7 +27,7 @@ header {
   }
   
 img {
-	margin: 10px;
+	margin: 20px;
   }
 
 /* start navigation  Kept consistent across all pages*/
@@ -43,17 +43,16 @@ nav {
 	width: 800px;
 	margin: 0 auto;	
 	flex-wrap: nowrap;
-    grid-column: 1/5;;
   }
 
   nav ul {
 	list-style-type: none;
 	overflow: auto;
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
   }
   
-  nav li { float:center; }
+  nav li { float:left; }
   
   nav li a { 
 	padding: 15px;
@@ -66,7 +65,14 @@ nav {
 	background-color: #1c6494dc;
 	color: #00060a;
   }
-  /* end navigation */
+/* end navigation */
+
+/*Flex container in "services" page*/
+
+  .flex-container{
+      display: flex;
+      flex-direction: row;
+  }
 
 /*Beginning of Footer*/
 
