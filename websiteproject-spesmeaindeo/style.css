@@ -43,6 +43,7 @@ nav {
 	width: 800px;
 	margin: auto;	
 	flex-wrap: nowrap;
+    grid-column: 1/5;;
   }
 
   nav ul {
@@ -52,8 +53,7 @@ nav {
 	padding: 0;
   }
   
-  nav li { float: left; }
-  /*I couldn't get it to stay center without the float. Flexbox properties kept moving the aside border*/
+  nav li { float:center; }
   
   nav li a { 
 	padding: 15px;
@@ -71,6 +71,7 @@ nav {
 /*Beginning of Footer*/
 
 footer {
+  grid-column: 1/5;
   clear: both;
   background-color: #1f72aaa1;
   color: white;
@@ -87,7 +88,7 @@ footer .wrapper {
 
 /*Start of Index CSS*/
 
-index {
+#index {
     background-image: url(\images\electricbythesea.jpg); /*image from unsplash*/
     background-attachment:fixed;
     background-position: center;
