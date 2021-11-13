@@ -1,14 +1,7 @@
+/*Start of Consitency across all pages*/
+
 * { box-sizing: border-box; } 
 
-index {
-    background-image: url(\images\electricbythesea.jpg); /*image from unsplash*/
-    background-attachment:fixed;
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size: cover;
-    border-color:  rgb(59, 195, 230);
-    border-width: 1px;
-    }
 /*
 body {
   font-family: Arial, Helvetica, sans-serif; 
@@ -28,7 +21,7 @@ header {
   color: #000000;
   align-content: flex-end;
 
-} /* partial span in grid of viewport with line 1 to 5 for Full span.*/
+} /* partial span in grid of viewport with line 1 to 5 for Full span. Kept consistent across all pages*/
 
 .logo {
 	display: flex;
@@ -38,8 +31,7 @@ img {
 	margin: 10px;
   }
 
-/* start navigation */
-
+/* start navigation * Kept consistent across all pages/
 
 nav {
 	font-family: Arial, Helvetica, sans-serif;
@@ -81,4 +73,39 @@ section {
     width: 800px;
     margin: 0 auto;
 }
+/*End of Consitency across all pages*/
 
+/*Start of Index CSS*/
+
+index {
+    background-image: url(\images\electricbythesea.jpg); /*image from unsplash*/
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    border-color:  rgb(59, 195, 230);
+    border-width: 1px;
+    }
+/*End of Index CSS*/
+
+/*Start of About CSS*/
+
+about {
+    background-image: url(\images\elecimages\david-von-diemar-aeaakiJziLs-unsplash.jpg); /*image from unsplash*/
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    border-color:  rgb(59, 195, 230);
+    border-width: 1px;
+    }
+
+/*End of About CSS*/
+
+/*Start of Services CSS*/
+
+/*End of Services CSS*/
+
+/*Start of Contact CSS*/
+
+/*End of Contact CSS*/
