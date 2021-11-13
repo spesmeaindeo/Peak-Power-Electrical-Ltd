@@ -163,6 +163,7 @@ contact {
 /*End of Contact CSS*/
 
 /*Call Button*/
+
 .call-btn {
     background-color: rgb(243, 243, 78);
     color: black;
@@ -172,7 +173,7 @@ contact {
     padding: 30px 10px;
     position: fixed;
     right: 0;
-    top: 25%;
+    top: 30%;
     writing-mode: vertical-rl;
     border-radius: 15px 0 0 15px;
 }
