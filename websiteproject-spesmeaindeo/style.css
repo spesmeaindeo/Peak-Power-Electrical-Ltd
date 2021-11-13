@@ -69,10 +69,21 @@ nav {
   }
   /* end navigation */
 
-section {
-    width: 800px;
-    margin: 0 auto;
+/*Beginning of Footer*/
+
+footer {
+  clear: both;
+  background-color: #1f72aaa1;
+  color: white;
 }
+
+footer .wrapper {
+  width: 800px;
+  margin: 0 auto;
+  padding: 15px;
+}
+/*End of footer*/
+
 /*End of Consitency across all pages*/
 
 /*Start of Index CSS*/
